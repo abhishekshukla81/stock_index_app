@@ -1,0 +1,51 @@
+{
+ "index": "NIFTY 50",
+ "generated_at": "2026-11-06T17:44:36+00:00",
+ "total": 50,
+ "no_data": 0,
+ "count": 3,
+ "rows": [
+  {
+   "Date": "06-11-2026",
+   "Ticker": "TCS.NS",
+   "Stock": "TCS",
+   "CMP": 2498.5,
+   "52W High": 3187.34,
+   "52W High Date": "22-12-2025",
+   "30 DMA": 2307.48,
+   "50 DMA": 2275.7,
+   "200 DMA": 2378.6,
+   "200 DMA Dist %": 5.04,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "HCLTECH.NS",
+   "Stock": "HCLTECH",
+   "CMP": 1440.0,
+   "52W High": 1665.13,
+   "52W High Date": "28-01-2026",
+   "30 DMA": 1325.05,
+   "50 DMA": 1301.11,
+   "200 DMA": 1292.02,
+   "200 DMA Dist %": 11.45,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "BHARTIARTL.NS",
+   "Stock": "BHARTIARTL",
+   "CMP": 2107.2,
+   "52W High": 2135.82,
+   "52W High Date": "21-11-2025",
+   "30 DMA": 1880.85,
+   "50 DMA": 1868.15,
+   "200 DMA": 1874.85,
+   "200 DMA Dist %": 12.39,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  }
+ ]
+}

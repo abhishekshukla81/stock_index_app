@@ -1,0 +1,93 @@
+{
+ "index": "NIFTY MIDCAP 150",
+ "generated_at": "2026-11-06T17:46:21+00:00",
+ "total": 150,
+ "no_data": 0,
+ "count": 6,
+ "rows": [
+  {
+   "Date": "06-11-2026",
+   "Ticker": "BHARTIHEXA.NS",
+   "Stock": "BHARTIHEXA",
+   "CMP": 1664.4,
+   "52W High": 1852.62,
+   "52W High Date": "04-11-2025",
+   "30 DMA": 1569.12,
+   "50 DMA": 1552.77,
+   "200 DMA": 1548.23,
+   "200 DMA Dist %": 7.5,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "MPHASIS.NS",
+   "Stock": "MPHASIS",
+   "CMP": 2520.0,
+   "52W High": 2876.48,
+   "52W High Date": "05-12-2025",
+   "30 DMA": 2415.58,
+   "50 DMA": 2395.91,
+   "200 DMA": 2328.9,
+   "200 DMA Dist %": 8.21,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "APLAPOLLO.NS",
+   "Stock": "APLAPOLLO",
+   "CMP": 2185.3,
+   "52W High": 2272.05,
+   "52W High Date": "11-02-2026",
+   "30 DMA": 2147.88,
+   "50 DMA": 2163.89,
+   "200 DMA": 2011.36,
+   "200 DMA Dist %": 8.65,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "MANKIND.NS",
+   "Stock": "MANKIND",
+   "CMP": 2540.0,
+   "52W High": 2617.9,
+   "52W High Date": "28-07-2026",
+   "30 DMA": 2426.58,
+   "50 DMA": 2395.52,
+   "200 DMA": 2320.64,
+   "200 DMA Dist %": 9.45,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "PERSISTENT.NS",
+   "Stock": "PERSISTENT",
+   "CMP": 6053.5,
+   "52W High": 6517.4,
+   "52W High Date": "22-12-2025",
+   "30 DMA": 5722.88,
+   "50 DMA": 5651.93,
+   "200 DMA": 5305.43,
+   "200 DMA Dist %": 14.1,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "LTTS.NS",
+   "Stock": "LTTS",
+   "CMP": 4259.7,
+   "52W High": 4620.82,
+   "52W High Date": "23-12-2025",
+   "30 DMA": 3668.8,
+   "50 DMA": 3562.41,
+   "200 DMA": 3466.41,
+   "200 DMA Dist %": 22.89,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  }
+ ]
+}

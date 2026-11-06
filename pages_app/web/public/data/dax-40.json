@@ -1,0 +1,93 @@
+{
+ "index": "DAX 40",
+ "generated_at": "2026-11-06T17:44:27+00:00",
+ "total": 40,
+ "no_data": 0,
+ "count": 6,
+ "rows": [
+  {
+   "Date": "06-11-2026",
+   "Ticker": "EOAN.DE",
+   "Stock": "EOAN",
+   "CMP": 19.08,
+   "52W High": 19.7,
+   "52W High Date": "17-03-2026",
+   "30 DMA": 17.86,
+   "50 DMA": 17.71,
+   "200 DMA": 18.21,
+   "200 DMA Dist %": 4.8,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "AIR.DE",
+   "Stock": "AIR",
+   "CMP": 196.36,
+   "52W High": 216.25,
+   "52W High Date": "13-01-2026",
+   "30 DMA": 192.46,
+   "50 DMA": 193.96,
+   "200 DMA": 186.97,
+   "200 DMA Dist %": 5.02,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "BEI.DE",
+   "Stock": "BEI",
+   "CMP": 85.26,
+   "52W High": 108.22,
+   "52W High Date": "24-02-2026",
+   "30 DMA": 80.52,
+   "50 DMA": 78.65,
+   "200 DMA": 79.35,
+   "200 DMA Dist %": 7.45,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "SHL.DE",
+   "Stock": "SHL",
+   "CMP": 44.66,
+   "52W High": 45.95,
+   "52W High Date": "14-01-2026",
+   "30 DMA": 40.86,
+   "50 DMA": 39.89,
+   "200 DMA": 37.85,
+   "200 DMA Dist %": 17.99,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "ZAL.DE",
+   "Stock": "ZAL",
+   "CMP": 27.72,
+   "52W High": 30.24,
+   "52W High Date": "29-07-2026",
+   "30 DMA": 24.86,
+   "50 DMA": 23.96,
+   "200 DMA": 23.38,
+   "200 DMA Dist %": 18.56,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  },
+  {
+   "Date": "06-11-2026",
+   "Ticker": "QIA.DE",
+   "Stock": "QIA",
+   "CMP": 45.21,
+   "52W High": 45.95,
+   "52W High Date": "26-01-2026",
+   "30 DMA": 42.31,
+   "50 DMA": 40.42,
+   "200 DMA": 36.54,
+   "200 DMA Dist %": 23.72,
+   "CAR Status": "Positive",
+   "Action": "Positive Breakout"
+  }
+ ]
+}

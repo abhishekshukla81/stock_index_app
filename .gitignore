@@ -8,3 +8,5 @@ __pycache__/
 .bob/
 node_modules/
 frontend/dist/
+pages_app/web/node_modules/
+pages_app/web/dist/

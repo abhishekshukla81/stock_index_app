@@ -81,14 +81,20 @@ def _closes(batch):
     return out
 
 
-def scan(tickers, progress=None, today=None):
+def scan(tickers, progress=None, today=None, stats=None):
     """Scan ``tickers``; call ``progress(done, total)`` after each batch.
+
+    If ``stats`` is a dict, ``stats["missing"]`` is set to the tickers that returned
+    no price data at all (lets callers tell "no breakouts" from "no data").
 
     Returns a DataFrame of positive breakouts sorted by distance from the 200 DMA
     (ascending, i.e. the least extended first).
     """
     rows = []
     total = len(tickers)
+    missing = []
+    if stats is not None:
+        stats["missing"] = missing
     for i in range(0, total, BATCH_SIZE):
         batch = tickers[i:i + BATCH_SIZE]
         try:
@@ -96,6 +102,9 @@ def scan(tickers, progress=None, today=None):
         except Exception:
             logger.warning("Batch download failed", exc_info=True)
             closes = {}
+        missing.extend(
+            t for t in batch if t not in closes or not closes[t].notna().any()
+        )
         for t, series in closes.items():
             try:
                 row = evaluate(t, series, today)
