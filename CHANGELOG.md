@@ -15,47 +15,27 @@ Original function `fetch_global_stocks` reviewed and refactored into `stock_univ
 | 7 | Misleading "verified/official" messages. | Removed. Static lists are labelled as snapshots. |
 | 8 | **Found in live testing:** the Invesco `holdings-0.csv` URL now returns an HTML page (HTTP 200), so NASDAQ 100 failed to parse. | Switched to Invesco's JSON holdings API and kept only `Common Stock` and ADR rows. This drops futures, currency and cash rows. |
 
+## Breakout scanner and React UI
+
+* `scanner.py` runs the CAR + 30/50/200 DMA breakout scan (with 52-week closing high and its date) in a background thread per index. See the `/api/scan` endpoints in `app.py`.
+* The UI is a React 19 + Vite app in `frontend/`. Flask serves the built bundle from `frontend/dist` and keeps the same CSP (scripts and styles from `self` only).
+
 ## How to run
 
 Locally:
 
     cd stock_index_app               # run everything below from inside this folder
     python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+    (cd frontend && npm ci && npm run build)   # build the React UI once
     .venv/bin/python app.py          # http://127.0.0.1:5000
-    .venv/bin/python -m pytest -q    # 10 offline tests
+    .venv/bin/python -m pytest -q    # offline tests
 
-Google Colab: upload the `stock_index_app` folder, then run in cells:
+UI development with hot reload (Flask on :5000 in another terminal):
+
+    cd frontend && npm run dev       # http://127.0.0.1:5173, /api is proxied to Flask
+
+Google Colab: build `frontend/dist` locally first and upload the whole folder (Colab has no Node by default), then:
 
     %cd stock_index_app
     !pip install -q -r requirements.txt
-    %run colab_run.py                # prints a proxied URL to open
-
-Live check (6 Nov 2026): S&P 500 returned 503 tickers, NASDAQ 100 returned 101 (GOOGL and GOOG both listed), and NIFTY 50 returned 50. NIFTY 100/200/500/Midcap 150 and the SSGA/Invesco layouts were not exercised beyond that.
-
-## Improvements
-
-- `print` replaced with `logging`.
-- Duplicate tickers removed (`dict.fromkeys`).
-- Empty results raise an error.
-- 10 MB download cap.
-- Honest `User-Agent` (no browser spoofing).
-- Output tickers are validated against an allowlist regex. This blocks CSV formula injection (`=cmd|...`) in exports.
-- Download helper and alias table de-duplicated.
-
-## New: web application (`app.py`)
-
-- Flask UI: pick an index, then **Load** shows the table and **Export CSV** downloads it.
-- API: `GET /api/indices`, `/api/constituents?index=`, `/api/export?index=`.
-- One-hour in-memory cache.
-- Binds to `127.0.0.1` only.
-- CSP, nosniff and no-referrer headers.
-- The UI uses `textContent` only (no `innerHTML`).
-- Generic error messages.
-- `colab_run.py` runs it in Colab through the built-in port proxy.
-
-## Known limitations
-
-- DAX 40 and ISEQ 20 are static snapshots. ISEQ has 16 entries, not 20. Check both against the current composition.
-- Upstream URLs and layouts (SSGA `skiprows=4`, `Ticker`/`Symbol` columns) can change without notice.
-- Check each provider's terms before redistributing data.
-- Dependencies are pinned in `requirements.txt`. Run a vulnerability scan (Mend) in CI.
+    %run colab_run.py

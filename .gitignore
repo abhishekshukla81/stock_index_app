@@ -6,3 +6,5 @@ __pycache__/
 *.csv
 *.xlsx
 .bob/
+node_modules/
+frontend/dist/

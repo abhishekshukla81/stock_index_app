@@ -1,4 +1,4 @@
-"""Flask web UI + JSON/CSV API for stock_universe. Binds to 127.0.0.1 only."""
+"""Flask server (serves the React UI) + JSON/CSV API for stock_universe. Binds to 127.0.0.1 only."""
 
 import csv
 import io
@@ -7,9 +7,10 @@ import secrets
 import threading
 import time
 from datetime import datetime
+from pathlib import Path
 
 import pandas as pd
-from flask import Flask, Response, jsonify, render_template, request
+from flask import Flask, Response, jsonify, request, send_from_directory
 
 import scanner
 from stock_universe import (
@@ -23,7 +24,9 @@ from stock_universe import (
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__)
+# React UI: build with `cd frontend && npm ci && npm run build`.
+DIST = Path(__file__).resolve().parent / "frontend" / "dist"
+app = Flask(__name__, static_folder=str(DIST / "assets"), static_url_path="/assets")
 
 CACHE_TTL = 3600  # seconds
 _cache = {}
@@ -131,7 +134,9 @@ def _load_or_error():
 
 @app.get("/")
 def home():
-    return render_template("index.html")
+    if not (DIST / "index.html").is_file():
+        return "UI not built. Run: cd frontend && npm ci && npm run build", 503
+    return send_from_directory(DIST, "index.html")
 
 
 @app.get("/api/indices")
