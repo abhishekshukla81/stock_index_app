@@ -1,12 +1,12 @@
 {
  "index": "NIFTY 200",
- "generated_at": "2026-11-10T04:16:13+00:00",
+ "generated_at": "2026-11-11T02:06:40+00:00",
  "total": 200,
  "no_data": 0,
  "count": 9,
  "rows": [
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "TCS.NS",
    "Stock": "TCS",
    "CMP": 2475.4,
@@ -20,7 +20,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "APOLLOHOSP.NS",
    "Stock": "APOLLOHOSP",
    "CMP": 8549.5,
@@ -34,7 +34,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "MPHASIS.NS",
    "Stock": "MPHASIS",
    "CMP": 2455.0,
@@ -48,7 +48,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "APLAPOLLO.NS",
    "Stock": "APLAPOLLO",
    "CMP": 2181.3,
@@ -62,7 +62,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "HCLTECH.NS",
    "Stock": "HCLTECH",
    "CMP": 1407.0,
@@ -76,7 +76,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "BHARTIARTL.NS",
    "Stock": "BHARTIARTL",
    "CMP": 2072.1,
@@ -90,7 +90,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "HAL.NS",
    "Stock": "HAL",
    "CMP": 4999.0,
@@ -104,7 +104,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "PERSISTENT.NS",
    "Stock": "PERSISTENT",
    "CMP": 6040.0,
@@ -118,7 +118,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "DLF.NS",
    "Stock": "DLF",
    "CMP": 755.0,

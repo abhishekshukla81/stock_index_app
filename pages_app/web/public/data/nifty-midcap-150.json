@@ -1,12 +1,12 @@
 {
  "index": "NIFTY MIDCAP 150",
- "generated_at": "2026-11-10T04:16:52+00:00",
+ "generated_at": "2026-11-11T02:07:28+00:00",
  "total": 150,
  "no_data": 0,
  "count": 5,
  "rows": [
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "MPHASIS.NS",
    "Stock": "MPHASIS",
    "CMP": 2455.0,
@@ -20,7 +20,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "BHARTIHEXA.NS",
    "Stock": "BHARTIHEXA",
    "CMP": 1655.4,
@@ -34,7 +34,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "APLAPOLLO.NS",
    "Stock": "APLAPOLLO",
    "CMP": 2181.3,
@@ -48,7 +48,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "PERSISTENT.NS",
    "Stock": "PERSISTENT",
    "CMP": 6040.0,
@@ -62,7 +62,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "10-11-2026",
+   "Date": "11-11-2026",
    "Ticker": "LTTS.NS",
    "Stock": "LTTS",
    "CMP": 4202.2,
