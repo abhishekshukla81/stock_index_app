@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-11-13T02:49:16+00:00",
+ "generated_at": "2026-11-14T02:37:13+00:00",
  "indices": [
   {
    "name": "S&P 500",
    "file": "s-p-500.json",
    "xlsx": "s-p-500.xlsx",
-   "count": 79,
+   "count": 86,
    "total": 503,
-   "generated_at": "2026-11-13T02:49:36+00:00",
+   "generated_at": "2026-11-14T02:37:46+00:00",
    "stale": false
   },
   {
    "name": "NASDAQ 100",
    "file": "nasdaq-100.json",
    "xlsx": "nasdaq-100.xlsx",
-   "count": 10,
+   "count": 12,
    "total": 101,
-   "generated_at": "2026-11-13T02:49:39+00:00",
+   "generated_at": "2026-11-14T02:37:53+00:00",
    "stale": false
   },
   {
@@ -25,52 +25,52 @@
    "xlsx": "dax-40.xlsx",
    "count": 8,
    "total": 40,
-   "generated_at": "2026-11-13T02:49:41+00:00",
+   "generated_at": "2026-11-14T02:37:55+00:00",
    "stale": false
   },
   {
    "name": "NIFTY 50",
    "file": "nifty-50.json",
    "xlsx": "nifty-50.xlsx",
-   "count": 5,
+   "count": 8,
    "total": 50,
-   "generated_at": "2026-11-13T02:49:45+00:00",
+   "generated_at": "2026-11-14T02:38:01+00:00",
    "stale": false
   },
   {
    "name": "NIFTY 100",
    "file": "nifty-100.json",
    "xlsx": "nifty-100.xlsx",
-   "count": 5,
+   "count": 9,
    "total": 100,
-   "generated_at": "2026-11-13T02:49:48+00:00",
+   "generated_at": "2026-11-14T02:38:07+00:00",
    "stale": false
   },
   {
    "name": "NIFTY 200",
    "file": "nifty-200.json",
    "xlsx": "nifty-200.xlsx",
-   "count": 7,
+   "count": 12,
    "total": 200,
-   "generated_at": "2026-11-13T02:49:54+00:00",
+   "generated_at": "2026-11-14T02:38:19+00:00",
    "stale": false
   },
   {
    "name": "NIFTY 500",
    "file": "nifty-500.json",
    "xlsx": "nifty-500.xlsx",
-   "count": 16,
+   "count": 23,
    "total": 501,
-   "generated_at": "2026-11-13T02:50:09+00:00",
+   "generated_at": "2026-11-14T02:38:50+00:00",
    "stale": false
   },
   {
    "name": "NIFTY MIDCAP 150",
    "file": "nifty-midcap-150.json",
    "xlsx": "nifty-midcap-150.xlsx",
-   "count": 4,
+   "count": 6,
    "total": 150,
-   "generated_at": "2026-11-13T02:50:13+00:00",
+   "generated_at": "2026-11-14T02:38:59+00:00",
    "stale": false
   }
  ]
