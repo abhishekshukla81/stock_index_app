@@ -1,12 +1,12 @@
 {
  "index": "NASDAQ 100",
- "generated_at": "2026-11-26T04:17:08+00:00",
+ "generated_at": "2026-11-27T04:26:43+00:00",
  "total": 101,
  "no_data": 0,
  "count": 8,
  "rows": [
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "EXC",
    "Stock": "EXC",
    "CMP": 46.51,
@@ -20,7 +20,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "XEL",
    "Stock": "XEL",
    "CMP": 81.11,
@@ -34,7 +34,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "LIN",
    "Stock": "LIN",
    "CMP": 524.61,
@@ -48,7 +48,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "ORLY",
    "Stock": "ORLY",
    "CMP": 96.69,
@@ -62,7 +62,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "WMT",
    "Stock": "WMT",
    "CMP": 131.94,
@@ -76,7 +76,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "PYPL",
    "Stock": "PYPL",
    "CMP": 57.81,
@@ -90,7 +90,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "GEHC",
    "Stock": "GEHC",
    "CMP": 83.33,
@@ -104,7 +104,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "IDXX",
    "Stock": "IDXX",
    "CMP": 709.46,

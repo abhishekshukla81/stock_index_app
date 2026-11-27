@@ -1,12 +1,12 @@
 {
  "index": "S&P 500",
- "generated_at": "2026-11-26T04:17:02+00:00",
+ "generated_at": "2026-11-27T04:26:37+00:00",
  "total": 503,
- "no_data": 0,
+ "no_data": 1,
  "count": 58,
  "rows": [
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "NI",
    "Stock": "NI",
    "CMP": 45.11,
@@ -20,7 +20,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "FE",
    "Stock": "FE",
    "CMP": 47.62,
@@ -34,7 +34,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "VZ",
    "Stock": "VZ",
    "CMP": 47.28,
@@ -48,7 +48,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "EXC",
    "Stock": "EXC",
    "CMP": 46.51,
@@ -62,7 +62,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "HIG",
    "Stock": "HIG",
    "CMP": 139.78,
@@ -76,7 +76,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "AES",
    "Stock": "AES",
    "CMP": 15.02,
@@ -90,7 +90,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "SO",
    "Stock": "SO",
    "CMP": 95.0,
@@ -104,7 +104,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "XEL",
    "Stock": "XEL",
    "CMP": 81.11,
@@ -118,7 +118,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "LNT",
    "Stock": "LNT",
    "CMP": 73.14,
@@ -132,7 +132,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "ES",
    "Stock": "ES",
    "CMP": 72.55,
@@ -146,7 +146,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "D",
    "Stock": "D",
    "CMP": 67.99,
@@ -160,7 +160,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "LIN",
    "Stock": "LIN",
    "CMP": 524.61,
@@ -174,7 +174,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "OTIS",
    "Stock": "OTIS",
    "CMP": 78.9,
@@ -188,7 +188,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "AEE",
    "Stock": "AEE",
    "CMP": 114.88,
@@ -202,7 +202,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "LMT",
    "Stock": "LMT",
    "CMP": 599.24,
@@ -216,7 +216,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "LUV",
    "Stock": "LUV",
    "CMP": 45.95,
@@ -230,7 +230,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "AIG",
    "Stock": "AIG",
    "CMP": 82.23,
@@ -244,7 +244,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "AON",
    "Stock": "AON",
    "CMP": 347.49,
@@ -258,7 +258,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "ORLY",
    "Stock": "ORLY",
    "CMP": 96.69,
@@ -272,7 +272,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "LOW",
    "Stock": "LOW",
    "CMP": 235.65,
@@ -286,7 +286,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "TSN",
    "Stock": "TSN",
    "CMP": 63.52,
@@ -300,7 +300,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "AOS",
    "Stock": "AOS",
    "CMP": 67.28,
@@ -314,7 +314,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "SHW",
    "Stock": "SHW",
    "CMP": 361.02,
@@ -328,7 +328,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "FERG",
    "Stock": "FERG",
    "CMP": 256.99,
@@ -342,7 +342,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "UPS",
    "Stock": "UPS",
    "CMP": 111.47,
@@ -356,7 +356,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "FISV",
    "Stock": "FISV",
    "CMP": 59.78,
@@ -370,7 +370,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "AFL",
    "Stock": "AFL",
    "CMP": 127.51,
@@ -384,7 +384,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "HD",
    "Stock": "HD",
    "CMP": 361.26,
@@ -398,7 +398,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "RCL",
    "Stock": "RCL",
    "CMP": 314.11,
@@ -412,7 +412,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "KR",
    "Stock": "KR",
    "CMP": 69.83,
@@ -426,7 +426,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "KIM",
    "Stock": "KIM",
    "CMP": 26.05,
@@ -440,7 +440,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "VRSK",
    "Stock": "VRSK",
    "CMP": 204.76,
@@ -454,7 +454,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "HCA",
    "Stock": "HCA",
    "CMP": 491.01,
@@ -468,7 +468,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "RMD",
    "Stock": "RMD",
    "CMP": 245.7,
@@ -482,7 +482,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "WELL",
    "Stock": "WELL",
    "CMP": 246.18,
@@ -496,7 +496,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "CMG",
    "Stock": "CMG",
    "CMP": 37.4,
@@ -510,7 +510,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "WMT",
    "Stock": "WMT",
    "CMP": 131.94,
@@ -524,7 +524,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "SPGI",
    "Stock": "SPGI",
    "CMP": 460.74,
@@ -538,7 +538,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "PPG",
    "Stock": "PPG",
    "CMP": 124.61,
@@ -552,7 +552,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "AVY",
    "Stock": "AVY",
    "CMP": 191.64,
@@ -566,7 +566,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "COR",
    "Stock": "COR",
    "CMP": 354.05,
@@ -580,7 +580,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "DG",
    "Stock": "DG",
    "CMP": 139.27,
@@ -594,7 +594,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "KHC",
    "Stock": "KHC",
    "CMP": 26.51,
@@ -608,7 +608,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "BR",
    "Stock": "BR",
    "CMP": 187.14,
@@ -622,7 +622,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "PYPL",
    "Stock": "PYPL",
    "CMP": 57.81,
@@ -636,7 +636,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "CLX",
    "Stock": "CLX",
    "CMP": 110.94,
@@ -650,7 +650,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "ERIE",
    "Stock": "ERIE",
    "CMP": 279.82,
@@ -664,7 +664,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "ALL",
    "Stock": "ALL",
    "CMP": 271.39,
@@ -678,7 +678,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "ULTA",
    "Stock": "ULTA",
    "CMP": 642.64,
@@ -692,7 +692,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "STE",
    "Stock": "STE",
    "CMP": 261.17,
@@ -706,7 +706,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "BRO",
    "Stock": "BRO",
    "CMP": 78.43,
@@ -720,7 +720,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "JKHY",
    "Stock": "JKHY",
    "CMP": 182.08,
@@ -734,7 +734,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "GEHC",
    "Stock": "GEHC",
    "CMP": 83.33,
@@ -748,7 +748,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "EL",
    "Stock": "EL",
    "CMP": 109.61,
@@ -762,7 +762,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "GEN",
    "Stock": "GEN",
    "CMP": 30.17,
@@ -776,7 +776,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "IDXX",
    "Stock": "IDXX",
    "CMP": 709.46,
@@ -790,7 +790,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "TYL",
    "Stock": "TYL",
    "CMP": 420.28,
@@ -804,7 +804,7 @@
    "Action": "Positive Breakout"
   },
   {
-   "Date": "26-11-2026",
+   "Date": "27-11-2026",
    "Ticker": "BAX",
    "Stock": "BAX",
    "CMP": 27.26,
